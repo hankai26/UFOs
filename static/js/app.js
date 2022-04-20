@@ -21,9 +21,10 @@ function buildTable(data) {
     Object.values(dataRow).forEach((val) => {
       let cell = row.append("td");
       cell.text(val);
-      }
+    }
     );
   });
+}
 
   function handleClick() {
     // Grab the datetime value from the filter
@@ -36,13 +37,21 @@ function buildTable(data) {
       // Apply `filter` to the table data to only keep the
       // rows where the `datetime` value matches the filter value
       filteredData = filteredData.filter(row => row.datetime === date);
-    }
-  
+      
+    };
+
+    // let date = d3.select(this).property("value").attr("id");
+  //   // 9. Loop through all of the filters and keep any data that
+  // // matches the filter values
+  // Object.entries(filters).forEach(([key, value]) => {
+  //   filteredData = filteredData.filter(row => row[key] === value);
+  // });
+
      // Rebuild the table using the filtered data
     // @NOTE: If no date was entered, then filteredData will
     // just be the original tableData.
     buildTable(filteredData);
-  }
+  };
 
   // Attach an event to listen for the form button
   d3.selectAll("#filter-btn").on("click", handleClick);
