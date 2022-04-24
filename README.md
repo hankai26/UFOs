@@ -8,16 +8,26 @@ The index.html file was modified to create multiple table filters for the dateti
 
 ![Multi_filters](https://github.com/hankai26/UFOs/blob/main/Resources/Multi_filters.png);
 
-If any specific criteria were input in the web, for example, typing " " in the filter id of "city", a filter variable was created to store the information.
+If any specific criteria were input in the web, for example, typing " " in the filter id of "city", a filter variable was created to store the information. The console webpage should be updated to show the input city name as well as the filter id, "city". Other critera can be used to filter search results in the same way. 
 
+![loop_coding]();
 
+Several search results are listed as in the following images.
 
+![search_city]();
 
-Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
+![search_datetime]();
 
-There is a description of how to perform a search, with images.
+![search_state]();
+
+![search_country]();
+
+![search_shape]();
+
 
 # Summary
+
+
 In a summary statement, describe one drawback of this new design and two recommendations for further development.
 
 The summary addresses one drawback of this webpage 

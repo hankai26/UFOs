@@ -7,3 +7,11 @@ body {
     background-size: 100% 100%;
     text-align: center;
   }
+
+form {
+  padding: 5px;
+}
+
+#filter-btn {
+    width: 100%;
+  }
